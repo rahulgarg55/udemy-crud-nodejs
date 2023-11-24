@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  padding: 30px;
+}
+
+.post-img {
+  width: 100%;
+}
+
+.post-content {
+  line-height: 1.8;
+  text-align: left;
+  font-weight: 400;
+}
+
+.button {
+  font-size: 18px;
+  color: white;
+  background-color: #0d6efd;
+  padding: 12px;
+  /* width: 10% !important; */
+}
+
+.modal {
+  top: 20% !important;
+  display: unset !important;
+}
+
+.label {
+  text-align: left;
+  font-size: 18px;
+}
+
+.modal-content {
+  background-color: lightgrey !important;
+}
+
+@media screen and (max-width:768px) {
+  .button {
+    width: auto !important;
+    font-size: 12px !important;
+  }
+  .main {
+    flex-wrap: nowrap;
+  }
+}
